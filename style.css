@@ -1,0 +1,102 @@
+*{
+    margin: auto;
+    font-family: 'inter', sans-serif;
+}
+header{
+    background-color: #303030;
+    height: 475px;
+}
+.textoinicial{
+    color: #fff;
+    padding-left: 50px;
+}
+#trad{
+    font-size: 60px;
+    padding-top: 210px;
+    padding-bottom: 10px;
+}
+#arq{
+    padding-top: 30px;
+    font-size:20px;
+}
+/*SEGUNDA SEÇÃO*/
+#list{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 230px;
+}
+.infolist{
+    list-style: none;
+    padding-top: 54px;
+padding-left: 120px;
+}
+.topitem{
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 70px;
+    line-height: 30px;
+}
+span{
+    font-size:20px;
+}
+
+/* TERCEIRA SEÇÃO */
+#descricao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#desctitulo{
+    font-size:24px;
+}
+#desctext{
+    padding-top: 30px;
+}
+img{
+    width: 605px;
+    height:510px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #303030;
+    height:638px;
+    margin-top:80px;
+    text-align: center;
+}
+#footertitle{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700px;
+    padding: 80px 50px 30px 60px;
+}
+input{
+    background-color: #fff;
+    border:0px;
+    border-radius:10px;
+    padding-left: 20px;
+    width: 500px;
+    height: 72px;
+    margin: 30px;
+    font-size:24px;
+}
+button{
+    background-color: #C07212;
+    color:#fff;
+    width:286px;
+    height:74px;
+    border:0px;
+    border-radius:10px;
+    font-size: 30px;
+    cursor:pointer;
+    margin-top: 45px;
+    font-family: 'Raleway', sans-serif;
+    transition: .5s ease; /*Retorna suavemente o botão pós hover*/
+}
+button:hover{
+    background-color: #e9e9e9;
+    color:#303030;
+    transform:translateY(-7px);
+    box-shadow: 0px 2px 20px #C07212;
+    transition-duration:0.5s;
+}
